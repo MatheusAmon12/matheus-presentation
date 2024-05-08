@@ -1,4 +1,5 @@
 import './App.css'
+import Carousel from './components/carousel'
 //import { Button } from './components/ui/button'
 import TemplateDefault from './template/default'
 
@@ -14,6 +15,11 @@ function App() {
           Comprometido em criar experiências digitais memoráveis e funcionais, sou um Desenvolvedor Full Stack | Especializado em Front-End apaixonado pelo que faço e em converter ideias criativas em realidade no desenvolvimento.
           </p>
       </section>
+
+      <Carousel height='16'>
+        <h2 className='text-center font-serif text-secondary font-bold'>Tecnologias e Ferramentas</h2>
+        <span className='text-center text-white block text-[10px]'>( arraste para os lados )</span>
+      </Carousel>
     </TemplateDefault>
   )
 }
