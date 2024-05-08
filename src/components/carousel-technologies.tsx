@@ -9,7 +9,7 @@ const CarouselTechnologies = ({height, children}: CarouselTechnologiesProps) => 
     return ( 
         <div className="pt-10 xl:px-32">
             {children}
-            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16 xl:grid xl:grid-rows-4 xl:grid-flow-col xl:justify-items-center">
+            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16 xl:grid xl:grid-rows-4 xl:grid-flow-col xl:justify-items-center xl:py-6">
                 <img className={`h-${height} hover:scale-125 cursor-pointer hover:animate-pulse`} src="/react-original.svg" alt="React" />
 
                 <img className={`h-${height} hover:scale-125 cursor-pointer hover:animate-pulse`} src="/nextjs-original.svg" alt="NextJS" />
