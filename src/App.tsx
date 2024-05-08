@@ -34,11 +34,11 @@ function App() {
       </section>
 
       <CarouselTechnologies height='h-16'>
-        <h2 className='text-center font-serif text-secondary font-bold'>Tecnologias e Ferramentas</h2>
+        <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Tecnologias e Ferramentas</h2>
       </CarouselTechnologies>
 
       <CarouselProjects height='h-[377px]'>
-        <h2 className='text-center font-serif text-secondary font-bold'>Alguns Projetos</h2>
+        <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Alguns Projetos</h2>
       </CarouselProjects>
     </TemplateDefault>
   )
