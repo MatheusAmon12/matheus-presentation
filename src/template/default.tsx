@@ -5,8 +5,8 @@ import { ReactNode } from "react";
 const TemplateDefault = ({children} : {children: ReactNode}) => {
     return (
         <>
-            <Header />
-            <div className="py-8">
+            <div className="pb-8 bg-[url('/tech-background-sm.png')] xl:bg-[url('/tech-background.png')] bg-cover bg-fixed">
+                <Header />
                 {children}
             </div>
             <Footer />
