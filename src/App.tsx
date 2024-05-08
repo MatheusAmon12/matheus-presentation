@@ -19,12 +19,10 @@ function App() {
 
       <CarouselTechnologies height='16'>
         <h2 className='text-center font-serif text-secondary font-bold'>Tecnologias e Ferramentas</h2>
-        <span className='text-center text-white block text-[10px]'>( arraste para os lados )</span>
       </CarouselTechnologies>
 
       <CarouselProjects height='[377px]'>
         <h2 className='text-center font-serif text-secondary font-bold'>Alguns Projetos</h2>
-        <span className='text-center text-white block text-[10px]'>( arraste para os lados )</span>
       </CarouselProjects>
     </TemplateDefault>
   )
