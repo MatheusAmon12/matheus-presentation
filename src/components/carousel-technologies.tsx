@@ -7,9 +7,9 @@ interface CarouselTechnologiesProps {
 
 const CarouselTechnologies = ({height, children}: CarouselTechnologiesProps) => {
     return ( 
-        <div className="pt-10">
+        <div className="pt-10 xl:px-32">
             {children}
-            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16">
+            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16 xl:grid xl:grid-rows-4 xl:grid-flow-col xl:justify-items-center">
                 <img className={`h-${height}`} src="/react-original.svg" alt="React" />
 
                 <img className={`h-${height}`} src="/nextjs-original.svg" alt="NextJS" />
@@ -30,8 +30,7 @@ const CarouselTechnologies = ({height, children}: CarouselTechnologiesProps) => 
 
                 <img className={`h-${height}`} src="/sass-original.svg" alt="Sass" />
 
-                <img className={`h-${height}`} src="/
-                npm-original-wordmark.svg" alt="NPM" />
+                <img className={`h-${height}`} src="/npm-original.svg" alt="NPM" />
 
                 <img className={`h-${height}`} src="/jest-plain.svg" alt="Jest" />
 
