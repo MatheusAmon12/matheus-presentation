@@ -9,7 +9,7 @@ const CarouselTechnologies = ({height, children}: CarouselTechnologiesProps) => 
     return ( 
         <div className="pt-10">
             {children}
-            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6">
+            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16">
                 <img className={`h-${height}`} src="/react-original.svg" alt="React" />
 
                 <img className={`h-${height}`} src="/nextjs-original.svg" alt="NextJS" />
