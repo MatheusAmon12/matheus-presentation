@@ -1,5 +1,6 @@
 import './App.css'
-import Carousel from './components/carousel'
+import CarouselProjects from './components/carousel-projects'
+import CarouselTechnologies from './components/carousel-technologies'
 //import { Button } from './components/ui/button'
 import TemplateDefault from './template/default'
 
@@ -16,10 +17,15 @@ function App() {
           </p>
       </section>
 
-      <Carousel height='16'>
+      <CarouselTechnologies height='16'>
         <h2 className='text-center font-serif text-secondary font-bold'>Tecnologias e Ferramentas</h2>
         <span className='text-center text-white block text-[10px]'>( arraste para os lados )</span>
-      </Carousel>
+      </CarouselTechnologies>
+
+      <CarouselProjects height='[377px]'>
+        <h2 className='text-center font-serif text-secondary font-bold'>Alguns Projetos</h2>
+        <span className='text-center text-white block text-[10px]'>( arraste para os lados )</span>
+      </CarouselProjects>
     </TemplateDefault>
   )
 }

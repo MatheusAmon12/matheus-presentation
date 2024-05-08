@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 
-interface CarouselProps {
+interface CarouselTechnologiesProps {
     height: string,
     children: ReactNode,
 }
 
-const Carousel = ({height, children}: CarouselProps) => {
+const CarouselTechnologies = ({height, children}: CarouselTechnologiesProps) => {
     return ( 
         <div className="pt-10">
             {children}
@@ -49,9 +49,9 @@ const Carousel = ({height, children}: CarouselProps) => {
 
                 <img className={`h-${height}`} src="/tailwindcss-original-wordmark.svg" alt="Tailwind CSS" />
             </div>
-            
+
         </div>
      );
 }
  
-export default Carousel;
+export default CarouselTechnologies;
