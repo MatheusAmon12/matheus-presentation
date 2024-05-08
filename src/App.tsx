@@ -1,7 +1,5 @@
-import './App.css'
 import CarouselProjects from './components/carousel-projects'
 import CarouselTechnologies from './components/carousel-technologies'
-//import { Button } from './components/ui/button'
 import TemplateDefault from './template/default'
 
 function App() {
@@ -25,10 +23,10 @@ function App() {
           Comprometido em criar experiências digitais memoráveis e funcionais, sou um Desenvolvedor Full Stack | Especializado em Front-End apaixonado pelo que faço e em converter ideias criativas em realidade no desenvolvimento.
         </p>
 
-        <details className='text-[0.875rem] font-sans text-secondary xl:text-[1rem] pt-6'>
+        <details className='text-[0.875rem] font-sans text-secondary xl:text-[1rem] pt-6 cursor-pointer'>
           <summary>Mais sobre mim</summary>
           <p className='text-white'>
-            Eu tenho 23 anos, me formei com técnico em informática em 2019, meu primeiro contato com um mundo do desenvolvimento. Nesse momento eu descobri o que eu queria seguir, pois simplesmente amo a programação.<br/><br/>Desde então busco me desenvolver cada dia mais como desenvolvedor, o curso mais importante para mim foi a Formação Full Stack JavaScript, pois tive contato com tecnologias incríveis que mostraram o quão grande era o universo da programação. Realizei outros cursos pela plataforma do Curso em Vídeo, imersões da Alura e Bootcamp MultiCloud. <br/><br/>Atualmente o meu foco é o Front-End e para abrangir meus conhecimentos me profissionalizei como Designer especialista em Figma. Isso me permitiu desenvolver projetos onde fui responsável desde a interface (UI) até a implementação, deploy e hospedagme. Meu objetivo é conseguir minha primeira oportunidade e daqui 4 anos anos chegar ao nível sênior
+            Eu tenho 23 anos, me formei com técnico em informática em 2019, meu primeiro contato com um mundo do desenvolvimento. Nesse momento eu descobri o que eu queria seguir, pois simplesmente amo a programação.<br/><br/>Desde então busco me desenvolver cada dia mais como desenvolvedor, o curso mais importante para mim foi a Formação Full Stack JavaScript, pois tive contato com tecnologias incríveis que mostraram o quão grande era o universo da programação. Realizei outros cursos pela plataforma do Curso em Vídeo, imersões da Alura e Bootcamp MultiCloud. <br/><br/>Atualmente o meu foco é o Front-End e para abrangir meus conhecimentos me profissionalizei como Designer especialista em Figma. Isso me permitiu desenvolver projetos onde fui responsável desde a interface (UI) até a implementação, deploy e hospedagme. Meu objetivo é conseguir minha primeira oportunidade e daqui 4 anos anos chegar ao nível sênior.
           </p>
         </details>
       </section>
