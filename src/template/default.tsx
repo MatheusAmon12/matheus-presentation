@@ -5,7 +5,7 @@ const TemplateDefault = ({children} : {children: ReactNode}) => {
     return (
         <>
             <Header />
-            <div className="px-6 pt-8">
+            <div className="py-8">
                 {children}
             </div>
         </>

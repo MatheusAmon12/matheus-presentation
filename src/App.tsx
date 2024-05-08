@@ -8,7 +8,7 @@ function App() {
 
   return (
     <TemplateDefault>
-      <section>
+      <section className='px-6'>
         <p className='font-serif text-secondary font-bold text-[12px]'>Hello, world! Meu nome é</p>
         <h1 className='font-sans text-white text-[24px] font-bold'>Matheus Ferreira</h1>
         <h2 className='font-serif text-secondary font-bold text-[18px]'>Desenvolvedor Front-End</h2>
