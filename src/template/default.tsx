@@ -7,7 +7,7 @@ const TemplateDefault = ({children} : {children: ReactNode}) => {
         <>
             <div className="pb-8 bg-[url('/tech-background-sm.png')] xl:bg-[url('/tech-background.png')] bg-cover bg-fixed w-full">
                 <Header />
-                <div className="w-full px-40">
+                <div className="w-full px-3 lg:px-40">
                     {children}
                 </div>
             </div>

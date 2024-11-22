@@ -7,9 +7,9 @@ function App() {
 
   return (
     <TemplateDefault>
-      <div className='flex flex-wrap items-center justify-between mt-10'>
+      <div className='flex flex-wrap items-center justify-between mt-10 gap-10'>
         <HeroAboutMeText />
-        <div className=''>
+        <div>
           <img src="/perfil.webp" alt="Matheus Amon dos S Ferreira" loading='lazy' />
         </div>
       </div>
