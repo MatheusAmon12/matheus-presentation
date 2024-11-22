@@ -1,22 +1,31 @@
 import { ReactNode } from "react";
 import { Button } from "./ui/button";
 import { ChevronRight } from "lucide-react";
+import { ProjectsList } from "@/_constants/projects-list";
 
 interface CarouselProjectsProps {
     height: string,
     children: ReactNode,
 }
 
-const CarouselProjects = ({height, children}: CarouselProjectsProps) => {
+const CarouselProjects = ({children}: CarouselProjectsProps) => {
     return ( 
-        <div className="pt-10 text-center">
+        <div className="w-full pt-10 text-center">
             {children}
-            <div className="w-full flex gap-4 items-center overflow-x-auto [&::-webkit-scrollbar]:hidden pt-6 px-16 xl:justify-center">
-                <img loading="lazy" className={`${height} hover:scale-105 cursor-pointer py-4`} src="/bookings-project.webp" alt="Projeto Bookings" />
-
-                <img loading="lazy" className={`${height} hover:scale-105 cursor-pointer py-4`} src="/delivery-project.webp" alt="Projeto Delivery" />
-
-                <img loading="lazy" className={`${height} hover:scale-105 cursor-pointer py-4`} src="/todo-project.webp" alt="Projeto To Do List" />
+            <div className="flex justify-between items-center flex-col lg:flex-row w-full">
+                {
+                    ProjectsList.map((image, index) => (
+                        <a 
+                            key={index} 
+                            href={image.link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="cursor-pointer"
+                        >
+                            <img loading="lazy" className= 'hover:scale-105 py-10 object-cover w-96' src={image.imageUrl} alt={image.alt} />
+                        </a>
+                    ))
+                }
             </div>
 
             <Button variant="outline" className="text-secondary border-secondary hover:bg-secondary hover:text-white mt-6 space-x-2" asChild>
