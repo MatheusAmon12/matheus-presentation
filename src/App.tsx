@@ -14,9 +14,11 @@ function App() {
         </div>
       </div>
 
-      <CarouselTechnologies height='h-16'>
-        <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Tecnologias e Ferramentas</h2>
-      </CarouselTechnologies>
+      <div className='mt-12'>
+        <CarouselTechnologies>
+          <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Tecnologias e Ferramentas</h2>
+        </CarouselTechnologies>
+      </div>
 
       <CarouselProjects height='h-[377px]'>
         <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Alguns Projetos</h2>
