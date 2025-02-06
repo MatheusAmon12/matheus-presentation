@@ -7,10 +7,10 @@ function App() {
 
   return (
     <TemplateDefault>
-      <div className='flex flex-wrap items-center justify-between mt-10 gap-10'>
+      <div className='flex flex-col md:flex-row items-center mt-10 gap-10'>
         <HeroAboutMeText />
-        <div>
-          <img src="/perfil.webp" alt="Matheus Amon dos S Ferreira" loading='lazy' />
+        <div className='md:w-1/2'>
+          <img src="/perfil.webp" alt="Matheus Amon dos S Ferreira" loading='lazy' className='w-full' />
         </div>
       </div>
 
