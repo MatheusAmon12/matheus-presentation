@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const Header = () => {
     return ( 
-        <div className="flex items-center justify-between w-full pt-8 pb-2 px-3 lg:px-40">
+        <div className="flex items-center justify-between w-full pt-8 pb-2">
             <div className="h-4">
                 <img src="/logo.png" alt="Logo" className="h-full" />
             </div>
