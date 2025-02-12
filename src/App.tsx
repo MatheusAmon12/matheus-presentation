@@ -7,11 +7,8 @@ function App() {
 
   return (
     <TemplateDefault>
-      <div className='flex flex-col md:flex-row items-center mt-10 gap-10'>
+      <div className='flex flex-col justify-center items-center'>
         <HeroAboutMeText />
-        <div className='md:w-1/2'>
-          <img src="/perfil.webp" alt="Matheus Amon dos S Ferreira" loading='lazy' className='w-full' />
-        </div>
       </div>
 
       <div className='mt-12'>
