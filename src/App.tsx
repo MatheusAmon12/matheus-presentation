@@ -18,13 +18,15 @@ function App() {
 
       <div className='w-full bg-[#1a1a1a] relative z-10 py-20'>
         <CarouselTechnologies>
-          <h2 className='container text-center font-sans text-white font-bold text-3xl xl:text-3xl mb-10'>Tecnologias e Ferramentas</h2>  
+          <h2 className='container text-center font-sans text-white font-bold text-3xl lg:text-4xl mb-10'>Tecnologias e Ferramentas</h2>  
         </CarouselTechnologies>
       </div>
 
-      <CarouselProjects height='h-[377px]'>
-        <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Alguns Projetos</h2>
-      </CarouselProjects>
+      <div className='w-full bg-[#1a1a1a] relative z-10 py-20'>
+        <CarouselProjects height='h-[377px]'>
+          <h2 className='container text-center font-sans text-white font-bold text-3xl lg:text-4xl mb-10'>Alguns Projetos</h2>
+        </CarouselProjects>
+      </div>
     </TemplateDefault>
   )
 }
