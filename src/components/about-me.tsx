@@ -1,4 +1,7 @@
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { LuGithub } from "react-icons/lu";
 import selfPhoto from "../../public/perfil.webp"
+import { Button } from "./ui/button";
 
 const AboutMe = () => {
     return ( 
@@ -6,6 +9,29 @@ const AboutMe = () => {
          container py-20 lg:px-48">
             <div className="lg:w-1/2">
                 <img src={selfPhoto} alt="Matheus Amon dos S Ferreira" className="object-cover rounded-lg shadow-lg" />
+                <ul className="flex flex-row justify-center gap-4 mt-4">
+                    <li>
+                        <Button variant="ghost" className="hover:bg-secondary" asChild>
+                            <a href="https://www.github.com/MatheusAmon12" target="_blank" rel="noopener noreferrer">
+                                <LuGithub color="white" size={24}/>
+                            </a>
+                        </Button>
+                    </li>
+                    <li>
+                        <Button variant="ghost" className="hover:bg-secondary" asChild>
+                            <a href="https://www.linkedin.com/in/matheus-amon-dos-santos-ferreira-a52526163/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedinIn color="white" size={24}/>
+                            </a>
+                        </Button>
+                    </li>
+                    <li>
+                        <Button variant="ghost" className="hover:bg-secondary" asChild>
+                            <a href="https://wa.me/55991500574" target="_blank" rel="noopener noreferrer">
+                                <FaWhatsapp color="white" size={24}/>
+                            </a>
+                        </Button>
+                    </li>
+                </ul>
             </div>
             <div className="lg:w-1/2">
                 <h1 className="text-white font-serif text-lg">Sobre mim</h1>

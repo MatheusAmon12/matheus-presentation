@@ -1,5 +1,6 @@
-import { LinkedinIcon } from "lucide-react";
 import { Button } from "./ui/button";
+import { FaLinkedinIn } from "react-icons/fa";
+import { LuGithub } from "react-icons/lu";
 
 const Header = () => {
     return ( 
@@ -9,13 +10,13 @@ const Header = () => {
             </div>
             <div>
                 <Button variant="ghost" className="hover:bg-secondary" asChild>
-                    <a href="https://www.github.com/MatheusAmon12" target="_blank">
-                        <img src="/github-icon.svg" alt="GitHub" height={24} width={24} />
+                    <a href="https://www.github.com/MatheusAmon12" target="_blank" rel="noopener noreferrer">
+                        <LuGithub color="white" size={24}/>
                     </a>
                 </Button>
                 <Button variant="ghost" className="hover:bg-secondary" asChild>
-                    <a href="https://www.linkedin.com/in/matheus-amon-dos-santos-ferreira-a52526163/" target="_blank">
-                        <LinkedinIcon color="white" size={24}/>
+                    <a href="https://www.linkedin.com/in/matheus-amon-dos-santos-ferreira-a52526163/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedinIn color="white" size={24}/>
                     </a>
                 </Button>
             </div>
