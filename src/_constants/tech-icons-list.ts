@@ -69,7 +69,7 @@ export const TechIconsList = [
     },
     {
         imageUrl: '/vscode-original.svg',
-        alt: 'Visual Studio Code',
+        alt: 'VS Code',
     },
     {
         imageUrl: '/tailwindcss-original-wordmark.svg',

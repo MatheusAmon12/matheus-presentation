@@ -7,12 +7,15 @@ interface CarouselTechnologiesProps {
 
 const CarouselTechnologies = ({children}: CarouselTechnologiesProps) => {
     return ( 
-        <div className="pt-10 xl:px-32">
+        <div className="lg:container pt-10 xl:px-32">
             {children}
-            <div className="w-full flex gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden py-6 px-16 xl:grid xl:grid-rows-4 xl:grid-flow-col xl:justify-items-center xl:py-6">
+            <div className="w-full flex flex-row md:flex-wrap md:items-center md:justify-center gap-4 overflow-x-auto [&::-webkit-scrollbar]:hidden py-6 px-16">
                 {
                     TechIconsList.map((image, index) => (
-                        <img key={index} src={image.imageUrl} alt={image.alt} className="size-20" />
+                        <div key={index} className="flex flex-row items-center justify-center gap-2 rounded-full border-2 border-blue-600 min-w-40 lg:min-w-60 py-4">
+                            <img src={image.imageUrl} alt={image.alt} className="size-8" />
+                            <span className="text-base text-white font-sans">{image.alt}</span>
+                        </div>
                     ))
                 }
             </div>

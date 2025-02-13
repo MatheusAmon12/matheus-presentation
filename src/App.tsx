@@ -12,13 +12,13 @@ function App() {
         <Hero />
       </div>
 
-      <div className='w-full bg-slate-900 relative z-10'>
+      <div className='w-full bg-slate-900 relative z-10 py-20'>
         <AboutMe />
       </div>
 
-      <div>
+      <div className='w-full bg-[#1a1a1a] relative z-10 py-20'>
         <CarouselTechnologies>
-          <h2 className='text-center font-serif text-secondary font-bold text-lg xl:text-3xl'>Tecnologias e Ferramentas</h2>
+          <h2 className='container text-center font-sans text-white font-bold text-3xl xl:text-3xl mb-10'>Tecnologias e Ferramentas</h2>  
         </CarouselTechnologies>
       </div>
 

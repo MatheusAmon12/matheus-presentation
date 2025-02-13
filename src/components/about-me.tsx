@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const AboutMe = () => {
     return ( 
         <section className="flex flex-col items-center justify-center lg:flex-row gap-8
-         container py-20 lg:px-48">
+         container lg:px-48">
             <div className="lg:w-1/2">
                 <img src={selfPhoto} alt="Matheus Amon dos S Ferreira" className="object-cover rounded-lg shadow-lg" />
                 <ul className="flex flex-row justify-center gap-4 mt-4">
