@@ -2,9 +2,9 @@ import ParticlesHeroBackground from "./particles-hero-background";
 
 const Hero = () => {
     return ( 
-        <section className='w-full'>
+        <section className='w-full flex justify-center items-center flex-1'>
             <ParticlesHeroBackground />
-            <div className="lg:w-1/2 text-center my-52 lg:my-64 container relative z-10">
+            <div className="lg:w-1/2 text-center relative z-10">
                 <p className='font-serif text-secondary font-bold text-base lg:text-lg'>
                     Hello, world!
                 </p>

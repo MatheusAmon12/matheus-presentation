@@ -3,12 +3,14 @@ import Hero from './components/hero'
 import AboutMe from './components/about-me'
 import CarouselTechnologies from './components/carousel-technologies'
 import CarouselProjects from './components/carousel-projects'
+import Header from './components/header'
 
 function App() {
 
   return (
     <TemplateDefault>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col container h-svh'>
+        <Header />
         <Hero />
       </div>
 
